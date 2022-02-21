@@ -6,7 +6,7 @@ import Sponsors from '../components/sponsors'
 import Link from 'next/link'
 import { useEffect } from 'react'
 
-export default function IndexPage () {
+export default function IndexPage() {
   useEffect(() => {
     const script = document.createElement('script')
     script.src = 'https://apply.devfolio.co/v2/sdk.js'
@@ -126,22 +126,38 @@ export default function IndexPage () {
               </div>
             </div>
           </div>
+
+          <div className="slider_text_mobile">
+            <div className="container flex flex-wrap flex-column justify-center">
+              <div className="position_relv text-center">
+                <div
+                  className='apply-button'
+                  data-hackathon-slug='hackoverflow4'
+                  data-button-theme='dark'
+                  style={{ height: 44, width: 312 }}
+                />
+                <h3>Hackoverflow 5.0</h3>
+                <br />
+                <h3>Aarohan 2022</h3>
+              </div>
+            </div>
+          </div>
           <div className='countDOwn_area'>
             <div className='container'>
-              <div className='row align-items-center'>
-                <div className='col-xl-4 col-md-6 col-lg-4'>
+              <div className='row align-items-center justify-center'>
+                <div className='col-xl-4 col-md-6 col-lg-6 flex flex-wrap justify-center'>
                   <div className='single_date'>
                     <i className='ti-location-pin' />
                     <span>Online</span>
                   </div>
                 </div>
-                <div className='col-xl-3 col-md-6 col-lg-3'>
+                <div className='col-xl-4 col-md-6 col-lg-6 flex flex-wrap justify-center'>
                   <div className='single_date'>
                     <i className='ti-alarm-clock' />
                     <span>3rd April, 2022</span>
                   </div>
                 </div>
-                <div className='col-xl-5 col-md-12 col-lg-5'>
+                <div className='col-xl-4 col-md-12 col-lg-12 flex flex-wrap justify-center'>
                   <Timer />
                 </div>
               </div>
@@ -150,7 +166,7 @@ export default function IndexPage () {
           <div
             style={{
               width: '100%',
-              height: '300px',
+              height: '100px',
               display: 'flex',
               justifyContent: 'center',
               alignItems: 'center',
@@ -168,6 +184,15 @@ export default function IndexPage () {
             <a className='boxed-btn-white' href='/schedule' id='register-2'>
               Schedule
             </a>
+            <div>
+            <a
+              href='https://calendar.google.com/calendar/r/eventedit?text=Hackoverflow+4.0&dates=20210402/20210403'
+              className='boxed-btn-white my-2 sm:ml-3 block'
+              id='register-2'
+            >
+              Add to your Calendar
+            </a>
+            </div>
           </div>
         </div>
 
