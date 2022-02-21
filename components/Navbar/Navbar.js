@@ -65,7 +65,7 @@ export default function Navbar() {
                       width: "50px",
                       borderRadius: "50%",
                       float: "left",
-                    }} />&nbsp;&nbsp;<img src="img/logo.png" style={{ float: "left", }} alt />
+                    }} />&nbsp;&nbsp;
                   </a>
                 </div>
               </div>
