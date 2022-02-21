@@ -2,6 +2,7 @@ import Head from "next/head";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import { useEffect } from "react";
+import Timer from '../components/Timer'
 import Sponsors from "../components/sponsors";
 
 export default function SchedulePage() {
@@ -62,67 +63,87 @@ export default function SchedulePage() {
             <div>
                 <div>
                     <Navbar />
-                    <div className="slider_area slider_bg_1">
-                        <div className="slider_text">
-                            <div className="container">
-                                <div className="position_relv">
-                                    <div className="row">
-                                        <div className="col-xl-8">
-                                            <div className="title_text title_text2 ">
-                                                <h3>Event Schedule</h3>
-                                                <a href="https://calendar.google.com/calendar/r/eventedit?text=Hackoverflow+4.0&dates=20210402/20210403" className="boxed-btn-white">
-                                                    Add to your Calendar
-                </a><br /><br />
-                                                <div className="apply-button" data-hackathon-slug="hackoverflow4" data-button-theme="dark" style={{ height: 44, width: 312 }} />
-                                                {/* <a
-                                                    className="boxed-btn-white"
-                                                    id="register-2"
+                    <div className='slider_area slider_bg_1'>
+                        <div className='slider_text'>
+                            <div className='container'>
+                                <div className='position_relv'>
+                                    <div className='row'>
+                                        <div className='col-xl-9'>
+                                            <div className='title_text ml-3'>
+                                                <h3>
+                                                    Event Schedule
+                                                    <br />
+                                                    Aarohan, 2022
+                                                </h3>
+                                                <br />
+                                                <a
+                                                    href='https://calendar.google.com/calendar/r/eventedit?text=Hackoverflow+4.0&dates=20210402/20210403'
+                                                    className='boxed-btn-white'
                                                 >
-                                                    Register
+                                                    Add to your Calendar
+                                                </a>
+                                                <br />
+                                                <br />
+                                                {/* <a
+                        className="boxed-btn-white"
+                        id="register-2"
+                      >
+                        Register
                       </a> */}
+                                                <div
+                                                    className='apply-button'
+                                                    data-hackathon-slug='hackoverflow4'
+                                                    data-button-theme='dark'
+                                                    style={{ height: 44, width: 312 }}
+                                                />
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="countDOwn_area">
-                            <div className="container">
-                                <div className="row align-items-center">
-                                    <div className="col-xl-4 col-md-6 col-lg-4">
-                                        <div className="single_date">
-                                            <i className="ti-location-pin" />
-                                            <span>Online (Discord)</span>
+                        <div className='countDOwn_area'>
+                            <div className='container'>
+                                <div className='row align-items-center'>
+                                    <div className='col-xl-4 col-md-6 col-lg-4'>
+                                        <div className='single_date'>
+                                            <i className='ti-location-pin' />
+                                            <span>Online</span>
                                         </div>
                                     </div>
-                                    <div className="col-xl-3 col-md-6 col-lg-3">
-                                        <div className="single_date">
-                                            <i className="ti-alarm-clock" />
-                                            <span>2-3 April, 2021</span>
+                                    <div className='col-xl-3 col-md-6 col-lg-3'>
+                                        <div className='single_date'>
+                                            <i className='ti-alarm-clock' />
+                                            <span>3rd April, 2022</span>
                                         </div>
                                     </div>
-                                    <div className="col-xl-5 col-md-12 col-lg-5">
-                                        <span id="clock" />
+                                    <div className='col-xl-5 col-md-12 col-lg-5'>
+                                        <Timer />
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div style={{ width: "100%", height: "300px", display: "flex", justifyContent: "center", alignItems: "center", flexWrap: "wrap" }}>
+                        <div
+                            style={{
+                                width: '100%',
+                                height: '300px',
+                                display: 'flex',
+                                justifyContent: 'center',
+                                alignItems: 'center',
+                                flexWrap: 'wrap'
+                            }}
+                        >
                             <a
-                                className="boxed-btn-white"
-                                href="https://discord.gg/5G5aJ8DxWu"
-                                id="register-2"
+                                className='boxed-btn-white'
+                                href='https://discord.gg/5G5aJ8DxWu'
+                                id='register-2'
                             >
                                 Join Discord
-                      </a>
-                      &nbsp; &nbsp;  &nbsp;
-                      <a
-                                className="boxed-btn-white"
-                                href="/schedule"
-                                id="register-2"
-                            >
+                            </a>
+                            &nbsp; &nbsp; &nbsp;
+                            <a className='boxed-btn-white' href='/schedule' id='register-2'>
                                 Schedule
-                      </a>
+                            </a>
                         </div>
                     </div>
                     <div className="event_area plus_padding">
@@ -143,10 +164,10 @@ export default function SchedulePage() {
                                                     <span>Idea Submission Phase Starts</span>
                                                     <div className="time">
                                                         12:01 AM
-                  </div>
+                                                    </div>
                                                 </div>
                                                 <p>Period for idea phase starts. Participants can submit the problem as well as the solution they come
-                  up for that problem. They must mention the tech stack used as well other necessary requirements. </p>
+                                                    up for that problem. They must mention the tech stack used as well other necessary requirements. </p>
                                             </div>
                                         </div>
                                     </div>
@@ -167,11 +188,11 @@ export default function SchedulePage() {
                                                     <span>Idea Submission Phase Ends</span>
                                                     <div className="time">
                                                         11:59 PM
-                  </div>
+                                                    </div>
                                                 </div>
                                                 <p>Now that you have thought enough about your idea, sit back and relax for a day till the judges review
-                                                your idea!
-                  Once your idea is cleared, all you need is an energy drink and your laptop!</p>
+                                                    your idea!
+                                                    Once your idea is cleared, all you need is an energy drink and your laptop!</p>
                                             </div>
                                         </div>
                                     </div>
@@ -192,7 +213,7 @@ export default function SchedulePage() {
                                                     <span>Hackoverflow flags off!</span>
                                                     <div className="time">
                                                         10:00 AM
-                  </div>
+                                                    </div>
                                                 </div>
                                                 <p>Ready! Set! Go!</p>
                                             </div>
@@ -204,7 +225,7 @@ export default function SchedulePage() {
                                                     <span>Typing Race</span>
                                                     <div className="time">
                                                         04:00 PM
-                  </div>
+                                                    </div>
                                                 </div>
                                                 <p>Whose fingers are the fastest in the west?</p>
                                             </div>
@@ -216,7 +237,7 @@ export default function SchedulePage() {
                                                     <span>Judges' Address</span>
                                                     <div className="time">
                                                         06:00 PM
-                  </div>
+                                                    </div>
                                                 </div>
                                                 <p>Few words of motivation from our knowledgeable and experienced judges!</p>
                                             </div>
@@ -239,7 +260,7 @@ export default function SchedulePage() {
                                                     <span>Mini-Event</span>
                                                     <div className="time">
                                                         10:00 AM
-                  </div>
+                                                    </div>
                                                 </div>
                                                 <p>Surprise!!!</p>
                                             </div>
@@ -251,10 +272,10 @@ export default function SchedulePage() {
                                                     <span>Judges' Review</span>
                                                     <div className="time">
                                                         04:00 PM
-                  </div>
+                                                    </div>
                                                 </div>
                                                 <p>Valuable review by Judges to improve the existing code you have written and be the best among all the
-                  competitors!</p>
+                                                    competitors!</p>
                                             </div>
                                         </div>
                                         <div className="single_speaker">
@@ -264,7 +285,7 @@ export default function SchedulePage() {
                                                     <span>Coding period ends</span>
                                                     <div className="time">
                                                         10:00 PM
-                  </div>
+                                                    </div>
                                                 </div>
                                                 <p>Contestants stop the coding and submit their codes for further evaluation process.</p>
                                             </div>
@@ -280,7 +301,7 @@ export default function SchedulePage() {
                                 <div className="col-xl-12">
                                     <div className="resister_text text-center" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
                                         <h3>Register Now to Lodge<br />
-              Your Presence</h3>
+                                            Your Presence</h3>
                                         <br /><br />
                                         <div className="apply-button" data-hackathon-slug="hackoverflow4" data-button-theme="dark" style={{ height: 44, width: 312 }} />
                                     </div>

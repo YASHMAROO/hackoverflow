@@ -22,9 +22,14 @@ export default function Sponsors () {
             <img src='/devfolio.png' />
           </Link>
         </div>
-        <div className='p-3'>
-          <Link href='https://geeksforgeeks.org/'>
-            <img src='/gfg.png' />
+        <div className='p-1'>
+          <Link href='https://polygon.technology/'>
+            <img src='/Portis_Logo-Colored.png' />
+          </Link>
+        </div>
+        <div className='p-1'>
+          <Link href='https://tezos.com/'>
+            <img src='/tezos.png' />
           </Link>
         </div>
         <div className='p-3'>
@@ -38,18 +43,18 @@ export default function Sponsors () {
         style={{ marginBottom: '80px' }}
       >
         <div className='p-1'>
-          <Link href='https://tezos.com/'>
-            <img src='/tezos.png' />
+          <Link href='https://celo.org'>
+            <img src='/Celo_Logo_Color.png' />
           </Link>
         </div>
         <div className='p-1'>
-          <Link href='https://www.portis.io/'>
-            <img src='/portis.png' />
+          <Link href='https://filecoin.io'>
+            <img src='/Filecoin.png' />
           </Link>
         </div>
         <div className='p-1'>
-          <Link href='https://polygon.technology/'>
-            <img src='/Portis_Logo-Colored.png' />
+          <Link href='https://geeksforgeeks.org/'>
+            <img src='/gfg.png' />
           </Link>
         </div>
       </div>

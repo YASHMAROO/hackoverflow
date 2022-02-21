@@ -89,7 +89,7 @@ export default function Footer () {
                 />
               </Link>
               <p className='copy_right text-center'>
-                Aarohan, 2021 | Made with{' '}
+                Aarohan, 2022 | Made with{' '}
                 <i className='fa fa-heart-o' aria-hidden='true' /> by{' '}
                 <a href='https://nitdgplug.org/' target='_blank'>
                   GNU/Linux Users' Group

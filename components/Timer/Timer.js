@@ -14,7 +14,7 @@ export default function Timer() {
   const [hour, setHour] = React.useState(0);
   const [minute, setMinute] = React.useState(0);
   const [second, setSecond] = React.useState(0);
-  const endDate = new Date("Apr 02, 2021 10:00:00").getTime();
+  const endDate = new Date("Apr 03, 2022 10:00:00").getTime();
 
   React.useEffect(() => {
     timer = setInterval(function () {

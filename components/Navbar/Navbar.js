@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <header className="bg-transparent">
+    <header>
       {/* <nav className="navbar navbar-expand-lg navbar-dark fixed bg-transparent">
         <div className="container-fluid bg-transparent">
           <div className="logo-img">

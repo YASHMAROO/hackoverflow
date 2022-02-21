@@ -22,7 +22,7 @@ export default function IndexPage () {
       <Head>
         <meta charSet='utf-8' />
         <meta httpEquiv='x-ua-compatible' content='ie=edge' />
-        <title>Hackoverflow 4.0</title>
+        <title>Hackoverflow 5.0</title>
         <meta name='description' content />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link
@@ -83,6 +83,7 @@ export default function IndexPage () {
           crossOrigin='anonymous'
         ></script>
         <script src='/js/jquery.slicknav.min.js'></script>
+        <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
       </Head>
       <div>
         <Navbar />
@@ -90,16 +91,15 @@ export default function IndexPage () {
           <div className='slider_text'>
             <div className='container'>
               <div className='position_relv'>
-                <h1 className='opcity_text d-none d-lg-block'>HACKATHON</h1>
                 <div className='row'>
                   <div className='col-xl-9'>
-                    <div className='title_text'>
+                    <div className='title_text ml-3'>
                       <h3>
-                        HackOverflow 4.0
+                        HackOverflow 5.0
                         <br />
-                        <br />
-                        Aarohan, 2021
+                        Aarohan, 2022
                       </h3>
+                      <br />
                       <a
                         href='https://calendar.google.com/calendar/r/eventedit?text=Hackoverflow+4.0&dates=20210402/20210403'
                         className='boxed-btn-white'
@@ -138,7 +138,7 @@ export default function IndexPage () {
                 <div className='col-xl-3 col-md-6 col-lg-3'>
                   <div className='single_date'>
                     <i className='ti-alarm-clock' />
-                    <span>2 April, 2021</span>
+                    <span>3rd April, 2022</span>
                   </div>
                 </div>
                 <div className='col-xl-5 col-md-12 col-lg-5'>
@@ -192,13 +192,13 @@ export default function IndexPage () {
                     <h3>
                       The Biggest Technical <br />
                       Fest of the <br />
-                      Year 2021
+                      Year 2022
                     </h3>
                   </div>
                   <p>
                     <br />
                     <br />
-                    Hackoverflow 4.0 is conducted by team Aavishkar during
+                    Hackoverflow 5.0 is conducted by team Aavishkar during
                     Aarohan, the second largest techno-management of Eastern
                     India!
                   </p>
@@ -230,20 +230,20 @@ export default function IndexPage () {
               <div className='col-xl-5 col-md-6'>
                 <div className='single_speaker'>
                   <div className='speaker_thumb'>
-                    <img src='/img/Indranil.jpg' alt />
+                    <img src='/img/sabyasachi.jpeg' alt />
                     <div className='hover_overlay'>
                       <div className='social_icon'>
-                        <a href='https://www.linkedin.com/in/indranil-dutta-06/'>
+                        <a href='https://in.linkedin.com/in/sabyasachi-mukhopadhyay-303a1027'>
                           <i className='fa fa-linkedin-square' />
                         </a>
                       </div>
                     </div>
                   </div>
                   <div className='speaker_name text-center'>
-                    <h3>Indranil Dutta</h3>
+                    <h3>Sabyasachi Mukhopadhyay</h3>
                     <p style={{ color: 'blue' }}>
-                      Organiser of GDG Kolkata
-                      <br /> Senior Consultant at PwC India
+                      Intel Software Innovator
+                      <br /> Google Developer Expert in ML,Champion Innovator(Google)
                     </p>
                   </div>
                 </div>
@@ -324,27 +324,7 @@ export default function IndexPage () {
                     <h3 style={{ color: 'blue' }}>Hackathon Themes</h3>
                   </div>
                 </div>
-                <div className='col-xl-9 col-lg-9'>
-                  <div className='single_speaker'>
-                    <img
-                      src='/sustainable.png'
-                      style={{
-                        height: '90px',
-                        width: '90px',
-                        borderRadius: '50%'
-                      }}
-                    />
-                    <div className='speaker-name'>
-                      <div className='heading d-flex justify-content-between align-items-center'>
-                        <span>Sustainability</span>
-                      </div>
-                      <p>
-                        Development of society often leads to imbalance in the
-                        environment. New technological tools can be used to have
-                        sustainable growth.{' '}
-                      </p>
-                    </div>
-                  </div>
+                <div className='col-xl-8 col-lg-9'>
                   <div className='single_speaker'>
                     <img
                       src='/blockchain.png'
@@ -409,25 +389,6 @@ export default function IndexPage () {
                   </div>
                   <div className='single_speaker'>
                     <img
-                      src='/law-book.png'
-                      style={{
-                        height: '90px',
-                        width: '90px',
-                        borderRadius: '50%'
-                      }}
-                    />
-                    <div className='speaker-name'>
-                      <div className='heading d-flex justify-content-between align-items-center'>
-                        <span>Law and Order</span>
-                      </div>
-                      <p>
-                        Several laws are made by the government. Use development
-                        tools to assist officers of law and citizens.
-                      </p>
-                    </div>
-                  </div>
-                  <div className='single_speaker'>
-                    <img
                       src='/open-sign.png'
                       style={{
                         height: '90px',
@@ -482,26 +443,13 @@ export default function IndexPage () {
                         className='p-4 flex flex-col md:flex-row items-center bg-white justify-around rounded shadow'
                         style={{ marginBottom: '15px' }}
                       >
-                        <Link href='https://www.portis.io/'>
-                          <img src='/portis.png' className='w-45 h-20' />
-                        </Link>
-                        <span className='text-black'>
-                          Best Dapp built on Portis gets ₹15,000 !
-                        </span>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        className='p-4 flex flex-col md:flex-row items-center bg-white justify-around rounded shadow'
-                        style={{ marginBottom: '15px' }}
-                      >
                         <Link href='https://tezos.com/'>
                           <img src='/tezos.png' className='w-45 h-20' />
                         </Link>
                         <span className='text-black'>
                           Best Dapp built on Tezos gets ₹20,000 !
-                          <br /> Continuity Grant opportunity for exceptional
-                          builders!
+                          <br /> Continuity grant opportunity up to 5,000 USD for an outstanding project!
+                          <br /> Every <a href="https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff#f4bf92eacb9f47bcbe1f1e63d09e6736">valid submission</a> made in the Tezos track will be rewarded with exclusive Schwag Kits.
                         </span>
                       </div>
                     </li>
@@ -510,18 +458,12 @@ export default function IndexPage () {
                         className='p-4 flex flex-col md:flex-row items-center bg-white justify-around rounded shadow'
                         style={{ marginBottom: '15px' }}
                       >
-                        <Link href='https://geeksforgeeks.org/'>
-                          <img src='/gfg.png' className='w-45 h-20' />
+                        <Link href='https://celo.org'>
+                          <img src='/Celo_Logo_Color.png' className='w-45 h-20' />
                         </Link>
                         <span className='text-black'>
-                          Access to Premium course of worth INR 2,500 for all
-                          individuals of the winning Team <br /> Access to
-                          Premium course of worth INR 2,000 for all individuals
-                          of the 1st Runner-up Team <br /> Access to Premium
-                          course of worth INR 1,200 for all individuals of the
-                          2nd Runner-up Team
+                          20000 INR for best Dapp built on Celo
                           <br />
-                          INR 300 worth vouchers to all the participants
                           <br />
                         </span>
                       </div>
@@ -531,14 +473,11 @@ export default function IndexPage () {
                         className='p-4 flex flex-col md:flex-row items-center bg-white justify-around rounded shadow'
                         style={{ marginBottom: '15px' }}
                       >
-                        <Link href='https://prepbytes.com/'>
-                          <img src='/pb.png' className='w-45 h-20' />
+                        <Link href='https://filecoin.io'>
+                          <img src='/Filecoin.png' className='w-45 h-20' />
                         </Link>
                         <span className='text-black'>
-                          Goodies for top 3 winners 
-                          <br />
-                          INR 500 worth vouchers to all the participants
-                          <br />
+                          20000 INR for best use of IPFS and/or Filecoin
                         </span>
                       </div>
                     </li>
