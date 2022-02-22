@@ -70,13 +70,7 @@ export default function IndexPage() {
         <script src='/js/jquery.validate.min.js'></script>
         <script src='/js/mail-script.js'></script>
         <script src='/js/main.js'></script>
-        <script
-          type='text/javascript'
-          id='hs-script-loader'
-          src='https://js.hs-scripts.com/19507545.js'
-          async
-          defer
-        ></script>
+        <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/21495576.js"></script>
         <script
           src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js'
           integrity='sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0'
@@ -250,8 +244,8 @@ export default function IndexPage() {
                 </div>
               </div>
             </div>
-            <div className='row'>
-              <div className='col-xl-5 col-md-6'>
+            <div className='row justify-center'>
+              <div className='col-xl-3 col-md-4'>
                 <div className='single_speaker'>
                   <div className='speaker_thumb'>
                     <img src='/img/sabyasachi.jpeg' alt />
@@ -271,8 +265,51 @@ export default function IndexPage() {
                     </p>
                   </div>
                 </div>
+              </div>
+              <div className='col-xl-3 col-md-4'>
+                <div className='single_speaker'>
+                  <div className='speaker_thumb'>
+                    <img src='/img/aditya.jpeg' alt />
+                    <div className='hover_overlay'>
+                      <div className='social_icon'>
+                        <a href='https://www.linkedin.com/in/adityaoberai1/'>
+                          <i className='fa fa-linkedin-square' />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className='speaker_name text-center'>
+                    <h3>Aditya Oberoi</h3>
+                    <p style={{ color: 'blue' }}>
+                      DevRel Engineer @ Appwrite | MLH Coach
+                    </p>
+                  </div>
+                </div>
+              </div>
 
-                {/* <div className='single_speaker'>
+              <div className='col-xl-3 col-md-4'>
+                <div className='single_speaker'>
+                  <div className='speaker_thumb'>
+                    <img src='/img/saketh.jpeg' alt />
+                    <div className='hover_overlay'>
+                      <div className='social_icon'>
+                        <a href='https://in.linkedin.com/in/sakethrr'>
+                          <i className='fa fa-linkedin-square' />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className='speaker_name text-center'>
+                    <h3>Saketh Gangavaram</h3>
+                    <p style={{ color: 'blue' }}>
+                      Founder and Managing Patner of Flyboat Startups and Innovations
+                      <br />Co-Founder of CodeAsylums anf faculty-member at EduPristine.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* <div className='single_speaker'>
                   <div className='speaker_thumb'>
                     <img src='/img/Dagar.JPG' alt />
                     <div className='hover_overlay'>
@@ -312,7 +349,7 @@ export default function IndexPage() {
                     <p style={{ color: 'blue' }}>ML Engineer, JustWatch</p>
                   </div>
                 </div> */}
-                {/* <div className="single_speaker">
+              {/* <div className="single_speaker">
                   <div className="speaker_thumb">
                     <img src="/default.webp" alt />
                     <div className="hover_overlay">
@@ -334,7 +371,6 @@ export default function IndexPage() {
                     <p style={{ color: "blue", }}>Position</p>
                   </div>
                 </div> */}
-              </div>
             </div>
           </div>
         </div>
