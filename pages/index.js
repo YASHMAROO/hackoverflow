@@ -8,13 +8,13 @@ import { useEffect } from 'react'
 
 export default function IndexPage() {
   useEffect(() => {
-    const script = document.createElement('script')
-    script.src = 'https://apply.devfolio.co/v2/sdk.js'
-    script.async = true
-    script.defer = true
-    document.body.appendChild(script)
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
     return () => {
-      document.body.removeChild(script)
+      document.body.removeChild(script);
     }
   }, [])
   return (
@@ -83,7 +83,6 @@ export default function IndexPage() {
           crossOrigin='anonymous'
         ></script>
         <script src='/js/jquery.slicknav.min.js'></script>
-        <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
       </Head>
       <div>
         <Navbar />
