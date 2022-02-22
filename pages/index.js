@@ -70,7 +70,13 @@ export default function IndexPage() {
         <script src='/js/jquery.validate.min.js'></script>
         <script src='/js/mail-script.js'></script>
         <script src='/js/main.js'></script>
-        <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/21495576.js"></script>
+        <script
+          type='text/javascript'
+          id='hs-script-loader'
+          src='https://js.hs-scripts.com/19507545.js'
+          async
+          defer
+        ></script>
         <script
           src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js'
           integrity='sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0'

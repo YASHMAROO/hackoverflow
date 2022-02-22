@@ -244,15 +244,15 @@ export default function SchedulePage() {
                                             </div>
                                         </div>
                                         <div className="single_speaker">
-                                            <img src="/keyboard.png" style={{ width: 80, height: 80 }} alt />
+                                            <img src="/podium.png" style={{ width: 80, height: 80 }} alt />
                                             <div className="speaker-name">
                                                 <div className="heading d-flex justify-content-between align-items-center">
-                                                    <span>Typing Race</span>
+                                                    <span>Speaker's Address</span>
                                                     <div className="time">
-                                                        04:00 PM
+                                                        02:00 PM
                                                     </div>
                                                 </div>
-                                                <p>Whose fingers are the fastest in the west?</p>
+                                                <p>Devfolio's Speakers Session for the Matic Network, Portis by ShapeShift or Tezos Track Prize.</p>
                                             </div>
                                         </div>
                                         <div className="single_speaker">
@@ -279,18 +279,6 @@ export default function SchedulePage() {
                                     </div>
                                     <div className="col-xl-9 col-lg-9">
                                         <div className="single_speaker">
-                                            <img src="/surprise.png" style={{ width: 80, height: 80 }} alt />
-                                            <div className="speaker-name">
-                                                <div className="heading d-flex justify-content-between align-items-center">
-                                                    <span>Mini-Event</span>
-                                                    <div className="time">
-                                                        10:00 AM
-                                                    </div>
-                                                </div>
-                                                <p>Surprise!!!</p>
-                                            </div>
-                                        </div>
-                                        <div className="single_speaker">
                                             <img src="/review.jpg" style={{ width: 80, height: 80 }} alt />
                                             <div className="speaker-name">
                                                 <div className="heading d-flex justify-content-between align-items-center">
@@ -304,12 +292,24 @@ export default function SchedulePage() {
                                             </div>
                                         </div>
                                         <div className="single_speaker">
+                                            <img src="/keyboard.png" style={{ width: 80, height: 80 }} alt />
+                                            <div className="speaker-name">
+                                                <div className="heading d-flex justify-content-between align-items-center">
+                                                    <span>Typing Race</span>
+                                                    <div className="time">
+                                                        04:00 PM
+                                                    </div>
+                                                </div>
+                                                <p>Whose fingers are the fastest in the west?</p>
+                                            </div>
+                                        </div>
+                                        <div className="single_speaker">
                                             <img src="/finish-line.png" style={{ width: 80, height: 80 }} alt />
                                             <div className="speaker-name">
                                                 <div className="heading d-flex justify-content-between align-items-center">
                                                     <span>Coding period ends</span>
                                                     <div className="time">
-                                                        04:00 PM
+                                                        10:00 PM
                                                     </div>
                                                 </div>
                                                 <p>Contestants stop the coding and submit their codes for further evaluation process.</p>
