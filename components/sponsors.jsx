@@ -32,9 +32,9 @@ export default function Sponsors () {
             <img src='/tezos.png' />
           </Link>
         </div>
-        <div className='p-3'>
-          <Link href='https://prepbytes.com/'>
-            <img src='/pb.png' style={{ width: "150px", height: "150px" }}/>
+        <div className='p-1'>
+          <Link href='https://celo.org'>
+            <img src='/Celo_Logo_Color.png' />
           </Link>
         </div>
       </div>
@@ -42,11 +42,6 @@ export default function Sponsors () {
         className='w-full pt-2 md:pt-6 md:pb-8 flex md:flex-row flex-col items-center md:justify-around'
         style={{ marginBottom: '80px' }}
       >
-        <div className='p-1'>
-          <Link href='https://celo.org'>
-            <img src='/Celo_Logo_Color.png' />
-          </Link>
-        </div>
         <div className='p-1'>
           <Link href='https://filecoin.io'>
             <img src='/Filecoin.png' />

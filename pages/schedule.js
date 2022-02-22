@@ -102,22 +102,38 @@ export default function SchedulePage() {
                                 </div>
                             </div>
                         </div>
+
+                        <div className="slider_text_mobile">
+                            <div className="container flex flex-wrap flex-column justify-center">
+                                <div className="position_relv text-center">
+                                    <div
+                                        className='apply-button'
+                                        data-hackathon-slug='hackoverflow4'
+                                        data-button-theme='dark'
+                                        style={{ height: 44, width: 312 }}
+                                    />
+                                    <h3>Event Schedule</h3>
+                                    <br />
+                                    <h3>Aarohan 2022</h3>
+                                </div>
+                            </div>
+                        </div>
                         <div className='countDOwn_area'>
                             <div className='container'>
-                                <div className='row align-items-center'>
-                                    <div className='col-xl-4 col-md-6 col-lg-4'>
+                                <div className='row align-items-center justify-center'>
+                                    <div className='col-xl-4 col-md-6 col-lg-6 flex flex-wrap justify-center'>
                                         <div className='single_date'>
                                             <i className='ti-location-pin' />
                                             <span>Online</span>
                                         </div>
                                     </div>
-                                    <div className='col-xl-3 col-md-6 col-lg-3'>
+                                    <div className='col-xl-4 col-md-6 col-lg-6 flex flex-wrap justify-center'>
                                         <div className='single_date'>
                                             <i className='ti-alarm-clock' />
-                                            <span>3rd April, 2022</span>
+                                            <span>4th March, 2022</span>
                                         </div>
                                     </div>
-                                    <div className='col-xl-5 col-md-12 col-lg-5'>
+                                    <div className='col-xl-4 col-md-12 col-lg-12 flex flex-wrap justify-center'>
                                         <Timer />
                                     </div>
                                 </div>
@@ -126,7 +142,7 @@ export default function SchedulePage() {
                         <div
                             style={{
                                 width: '100%',
-                                height: '300px',
+                                height: '100px',
                                 display: 'flex',
                                 justifyContent: 'center',
                                 alignItems: 'center',
@@ -135,7 +151,7 @@ export default function SchedulePage() {
                         >
                             <a
                                 className='boxed-btn-white'
-                                href='https://discord.gg/5G5aJ8DxWu'
+                                href='https://discord.gg/srz2gvnRtR'
                                 id='register-2'
                             >
                                 Join Discord
@@ -144,6 +160,15 @@ export default function SchedulePage() {
                             <a className='boxed-btn-white' href='/schedule' id='register-2'>
                                 Schedule
                             </a>
+                            <div>
+                                <a
+                                    href='https://calendar.google.com/calendar/r/eventedit?text=Hackoverflow+4.0&dates=20210402/20210403'
+                                    className='boxed-btn-white my-2 sm:ml-3 block'
+                                    id='register-2'
+                                >
+                                    Add to your Calendar
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div className="event_area plus_padding">
@@ -153,7 +178,7 @@ export default function SchedulePage() {
                                 <div className="row">
                                     <div className="col-xl-3 col-lg-3">
                                         <div className="date">
-                                            <h3 style={{ color: 'blue' }}>20 March, 2021</h3>
+                                            <h3 style={{ color: 'blue' }}>22 February, 2022</h3>
                                         </div>
                                     </div>
                                     <div className="col-xl-9 col-lg-9">
@@ -163,7 +188,7 @@ export default function SchedulePage() {
                                                 <div className="heading d-flex justify-content-between align-items-center">
                                                     <span>Idea Submission Phase Starts</span>
                                                     <div className="time">
-                                                        12:01 AM
+                                                        17:01 PM
                                                     </div>
                                                 </div>
                                                 <p>Period for idea phase starts. Participants can submit the problem as well as the solution they come
@@ -177,7 +202,7 @@ export default function SchedulePage() {
                                 <div className="row">
                                     <div className="col-xl-3 col-lg-3">
                                         <div className="date">
-                                            <h3 style={{ color: 'blue' }}>31 March, 2021</h3>
+                                            <h3 style={{ color: 'blue' }}>2 March, 2022</h3>
                                         </div>
                                     </div>
                                     <div className="col-xl-9 col-lg-9">
@@ -187,7 +212,7 @@ export default function SchedulePage() {
                                                 <div className="heading d-flex justify-content-between align-items-center">
                                                     <span>Idea Submission Phase Ends</span>
                                                     <div className="time">
-                                                        11:59 PM
+                                                        09:59 PM
                                                     </div>
                                                 </div>
                                                 <p>Now that you have thought enough about your idea, sit back and relax for a day till the judges review
@@ -202,7 +227,7 @@ export default function SchedulePage() {
                                 <div className="row">
                                     <div className="col-xl-3 col-lg-3">
                                         <div className="date">
-                                            <h3 style={{ color: 'blue' }}>02 April, 2021</h3>
+                                            <h3 style={{ color: 'blue' }}>04 March, 2022</h3>
                                         </div>
                                     </div>
                                     <div className="col-xl-9 col-lg-9">
@@ -249,7 +274,7 @@ export default function SchedulePage() {
                                 <div className="row">
                                     <div className="col-xl-3 col-lg-3">
                                         <div className="date">
-                                            <h3 style={{ color: 'blue' }}>03 April, 2021</h3>
+                                            <h3 style={{ color: 'blue' }}>05 March, 2022</h3>
                                         </div>
                                     </div>
                                     <div className="col-xl-9 col-lg-9">
@@ -271,7 +296,7 @@ export default function SchedulePage() {
                                                 <div className="heading d-flex justify-content-between align-items-center">
                                                     <span>Judges' Review</span>
                                                     <div className="time">
-                                                        04:00 PM
+                                                        12:00 PM
                                                     </div>
                                                 </div>
                                                 <p>Valuable review by Judges to improve the existing code you have written and be the best among all the
@@ -284,7 +309,7 @@ export default function SchedulePage() {
                                                 <div className="heading d-flex justify-content-between align-items-center">
                                                     <span>Coding period ends</span>
                                                     <div className="time">
-                                                        10:00 PM
+                                                        04:00 PM
                                                     </div>
                                                 </div>
                                                 <p>Contestants stop the coding and submit their codes for further evaluation process.</p>

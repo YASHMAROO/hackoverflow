@@ -154,7 +154,7 @@ export default function IndexPage() {
                 <div className='col-xl-4 col-md-6 col-lg-6 flex flex-wrap justify-center'>
                   <div className='single_date'>
                     <i className='ti-alarm-clock' />
-                    <span>3rd April, 2022</span>
+                    <span>4th March, 2022</span>
                   </div>
                 </div>
                 <div className='col-xl-4 col-md-12 col-lg-12 flex flex-wrap justify-center'>
@@ -175,7 +175,7 @@ export default function IndexPage() {
           >
             <a
               className='boxed-btn-white'
-              href='https://discord.gg/5G5aJ8DxWu'
+              href='https://discord.gg/srz2gvnRtR'
               id='register-2'
             >
               Join Discord
@@ -185,13 +185,13 @@ export default function IndexPage() {
               Schedule
             </a>
             <div>
-            <a
-              href='https://calendar.google.com/calendar/r/eventedit?text=Hackoverflow+4.0&dates=20210402/20210403'
-              className='boxed-btn-white my-2 sm:ml-3 block'
-              id='register-2'
-            >
-              Add to your Calendar
-            </a>
+              <a
+                href='https://calendar.google.com/calendar/r/eventedit?text=Hackoverflow+4.0&dates=20210402/20210403'
+                className='boxed-btn-white my-2 sm:ml-3 block'
+                id='register-2'
+              >
+                Add to your Calendar
+              </a>
             </div>
           </div>
         </div>
@@ -273,7 +273,7 @@ export default function IndexPage() {
                   </div>
                 </div>
 
-                <div className='single_speaker'>
+                {/* <div className='single_speaker'>
                   <div className='speaker_thumb'>
                     <img src='/img/Dagar.JPG' alt />
                     <div className='hover_overlay'>
@@ -312,7 +312,7 @@ export default function IndexPage() {
                     <h3>Gautham Santhosh</h3>
                     <p style={{ color: 'blue' }}>ML Engineer, JustWatch</p>
                   </div>
-                </div>
+                </div> */}
                 {/* <div className="single_speaker">
                   <div className="speaker_thumb">
                     <img src="/default.webp" alt />
@@ -371,6 +371,50 @@ export default function IndexPage() {
                       </p>
                     </div>
                   </div>
+
+                  <div className='single_speaker'>
+                    <img
+                      src='/road-safety.png'
+                      style={{
+                        height: '90px',
+                        width: '90px',
+                        borderRadius: '50%'
+                      }}
+                    />
+                    <div className='speaker-name'>
+                      <div className='heading d-flex justify-content-between align-items-center'>
+                        <span>Road Safety</span>
+                      </div>
+                      <p>
+                        Road safety is a constant concern for public safety, particularly
+                        in developing countries. Design an effective solution that could
+                        help tackle contemporary challenges for road safety.{' '}
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className='single_speaker'>
+                    <img
+                      src='/healthcare.png'
+                      style={{
+                        height: '90px',
+                        width: '90px',
+                        borderRadius: '50%'
+                      }}
+                    />
+                    <div className='speaker-name'>
+                      <div className='heading d-flex justify-content-between align-items-center'>
+                        <span>HealthCare</span>
+                      </div>
+                      <p>
+                        The global COVID-19 pandemic has accelerated the need for digital reinvention
+                        and the adoption of better healthcare technology. High-quality health care
+                        helps prevent diseases and improve quality of life. Build solutions
+                        to increase access to health care services.{' '}
+                      </p>
+                    </div>
+                  </div>
+
                   <div className='single_speaker'>
                     <img
                       src='/classroom.png'
