@@ -320,20 +320,6 @@ export default function SchedulePage() {
                             </div>
                         </div>
                     </div>
-                    <div className="resister_book resister_bg_1">
-                        <div className="container">
-                            <div className="row">
-                                <div className="col-xl-12">
-                                    <div className="resister_text text-center" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-                                        <h3>Register Now to Lodge<br />
-                                            Your Presence</h3>
-                                        <br /><br />
-                                        <div className="apply-button" data-hackathon-slug="hackoverflow5" data-button-theme="dark" style={{ height: 44, width: 312 }} />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     {/* <div class="brand_area">
     <div class="container">
 <div class="row">

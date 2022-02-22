@@ -556,44 +556,6 @@ export default function IndexPage() {
             </div>
           </div>
         </div>
-        <div
-          className='w-full pt-4 md:pt-16 md:pb-8 flex md:flex-row flex-col items-center md:justify-around'
-          style={{ marginBottom: '80px' }}
-        >
-          <video
-            width='400'
-            height='300'
-            className='focus:outline-none'
-            loop
-            autoPlay
-          >
-            <source src='/img/dm.mp4' type='video/mp4' />
-            Your browser does not support the video tag.
-          </video>
-          <div className='resister_text text-center'>
-            <ul>
-              <li>
-                <h1 style={{ fontSize: '25px' }}>
-                  Register Now to participate
-                </h1>
-              </li>
-              <li>
-                <h1 style={{ fontSize: '25px' }}>in the Event!</h1>
-              </li>
-              <li>
-                <br />
-                <br />
-                <div
-                  className='apply-button'
-                  data-hackathon-slug='hackoverflow5'
-                  data-button-theme='dark'
-                  style={{ height: 44, width: 312 }}
-                />
-              </li>
-            </ul>
-          </div>
-        </div>
-
         <div className='faq_area'>
           <div className='container'>
             <div className='row'>
