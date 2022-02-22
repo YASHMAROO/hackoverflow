@@ -70,13 +70,7 @@ export default function IndexPage() {
         <script src='/js/jquery.validate.min.js'></script>
         <script src='/js/mail-script.js'></script>
         <script src='/js/main.js'></script>
-        <script
-          type='text/javascript'
-          id='hs-script-loader'
-          src='https://js.hs-scripts.com/19507545.js'
-          async
-          defer
-        ></script>
+        <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/21495576.js"></script>
         <script
           src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js'
           integrity='sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0'
@@ -100,7 +94,7 @@ export default function IndexPage() {
                       </h3>
                       <br />
                       <a
-                        href='https://calendar.google.com/calendar/r/eventedit?text=Hackoverflow+4.0&dates=20210402/20210403'
+                        href='https://calendar.google.com/calendar/r/eventedit?text=Hackoverflow+5.0&dates=20220304/20220306'
                         className='boxed-btn-white'
                       >
                         Add to your Calendar
@@ -185,7 +179,7 @@ export default function IndexPage() {
             </a>
             <div>
               <a
-                href='https://calendar.google.com/calendar/r/eventedit?text=Hackoverflow+4.0&dates=20210402/20210403'
+                href='https://calendar.google.com/calendar/r/eventedit?text=Hackoverflow+5.0&dates=20220304/20220306'
                 className='boxed-btn-white my-2 sm:ml-3 block'
                 id='register-2'
               >

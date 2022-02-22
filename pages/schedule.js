@@ -77,7 +77,7 @@ export default function SchedulePage() {
                                                 </h3>
                                                 <br />
                                                 <a
-                                                    href='https://calendar.google.com/calendar/r/eventedit?text=Hackoverflow+4.0&dates=20210402/20210403'
+                                                    href='https://calendar.google.com/calendar/r/eventedit?text=Hackoverflow+5.0&dates=20220304/20220306'
                                                     className='boxed-btn-white'
                                                 >
                                                     Add to your Calendar
@@ -162,7 +162,7 @@ export default function SchedulePage() {
                             </a>
                             <div>
                                 <a
-                                    href='https://calendar.google.com/calendar/r/eventedit?text=Hackoverflow+4.0&dates=20210402/20210403'
+                                    href='https://calendar.google.com/calendar/r/eventedit?text=Hackoverflow+5.0&dates=20220304/20220306'
                                     className='boxed-btn-white my-2 sm:ml-3 block'
                                     id='register-2'
                                 >
