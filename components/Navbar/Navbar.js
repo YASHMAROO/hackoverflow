@@ -79,7 +79,7 @@ export default function Navbar() {
                         </a>
                       </li>
                       <li>
-                        <a target="_blank" href="/schedule">Schedule</a>
+                        <a href="/schedule">Schedule</a>
                       </li>
                       <li>
                         <a target="_blank" href="https://discord.gg/srz2gvnRtR">Discord</a>
