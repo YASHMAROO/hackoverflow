@@ -142,8 +142,8 @@
 
 .mobile_menu {
 	position: absolute;
-	right: 10px;
-	width: 96%;
+	right: 0px;
+	width: 100%;
 	z-index: 99;
 }
 .slicknav_menu .slicknav_menutxt {
@@ -201,7 +201,6 @@
 	margin-top:0;
 	padding: 0;
 	width: 100%;
-	border-bottom: 1px solid #eee;
 }
 
 .slicknav_nav a:hover {
@@ -211,9 +210,9 @@
 }
 
 .slicknav_nav a {
-    font-size: 14px;
-    font-weight: 400;
-    color: #000;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
     text-transform: capitalize;
 }
 

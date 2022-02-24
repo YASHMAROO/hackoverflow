@@ -72,8 +72,6 @@ export default function SchedulePage() {
                                             <div className='title_text ml-3'>
                                                 <h3>
                                                     Event Schedule
-                                                    <br />
-                                                    Aarohan, 2022
                                                 </h3>
                                                 <br />
                                                 <a

@@ -740,11 +740,11 @@ h3 {
 
 /* line 13, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav {
-  background: #fff;
+  background: linear-gradient(to right top, #210454, #27055b, #2d0762, #340869, #3a0a70, #3f0b79, #430c82, #480d8b, #4b0e99, #4d10a7, #4e12b5, #4e15c4);
   float: right;
   margin-top: 0;
   padding: 0;
-  width: 95%;
+  width: 100%;
   padding: 0;
   border-radius: 0px;
   margin-top: 5px;
@@ -788,7 +788,6 @@ h3 {
   margin-top: -40px;
   position: relative;
   z-index: 99;
-  border: 1px solid #ddd;
   top: 3px;
   right: 5px;
   top: -32px;
@@ -831,7 +830,7 @@ h3 {
   top: 5px;
   padding: 5px;
   right: 0;
-  margin-top: -5px;
+  margin-top: -16px;
   top: -27px;
 }
 
@@ -846,6 +845,8 @@ h3 {
   left: 0;
   top: 0;
   width: 100%;
+  align-self: center;
+  background: linear-gradient(to right top, #210454, #27055b, #2d0762, #340869, #3a0a70, #3f0b79, #430c82, #480d8b, #4b0e99, #4d10a7, #4e12b5, #4e15c4);
 }
 
 /* line 6, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
@@ -912,7 +913,7 @@ h3 {
 /* line 36, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu {
   text-align: center;
-  padding: 12px 0;
+  /* padding: 12px 0; */
 }
 
 /* line 40, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
@@ -1008,7 +1009,7 @@ h3 {
   -o-transition: 0.3s;
   transition: 0.3s;
   display: block;
-  color: #000;
+  color: white;
 }
 
 /* line 119, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
@@ -1043,7 +1044,7 @@ h3 {
   left: 0;
   right: 0;
   z-index: 99;
-  background: #000;
+  background: linear-gradient(to right top, #210454, #27055b, #2d0762, #340869, #3a0a70, #3f0b79, #430c82, #480d8b, #4b0e99, #4d10a7, #4e12b5, #4e15c4);
   transform: translateY(70px);
   transition: transform 500ms ease, background 500ms ease;
   -webkit-transition: transform 500ms ease, background 500ms ease;
@@ -1904,7 +1905,7 @@ h3 {
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_resister.scss */
 .resister_bg_1 {
-  background-image: url(../img/banner/resister.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)), url(../img/footer_bkg.jpeg);
 }
 
 /* line 4, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_resister.scss */
@@ -2320,7 +2321,7 @@ h3 {
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
 .footer_bg_1 {
-  background-image: url(../img/banner/footer_bg_1.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)), url(../img/footer_bkg.jpeg);
 }
 
 /* line 4, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
@@ -2369,8 +2370,8 @@ h3 {
 
 /* line 29, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget .footer_title {
-  font-size: 22px;
-  font-weight: 400;
+  font-size: 25px;
+  font-weight: 600;
   color: #fff;
   text-transform: capitalize;
   margin-bottom: 40px;
@@ -2403,16 +2404,16 @@ h3 {
 .footer .footer_top .footer_widget p {
   color: #fff;
   line-height: 42px;
-  font-size: 16px;
+  font-size: 19px;
   font-weight: 500;
 }
 
 /* line 55, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p.footer_text {
-  font-size: 16px;
+  font-size: 19px;
   color: #b2b2b2;
   margin-bottom: 23px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 28px;
 }
 
@@ -2447,7 +2448,7 @@ h3 {
 
 /* line 87, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget ul li a {
-  font-size: 16px;
+  font-size: 19px;
   color: #fff;
   line-height: 42px;
 }
