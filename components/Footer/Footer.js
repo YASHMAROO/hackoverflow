@@ -82,17 +82,17 @@ export default function Footer () {
                 alignItems: 'center'
               }}
             >
-              <Link href='https://nitdgplug.org/'>
+              <Link href=''>
                 <img
-                  src='/glug.png'
-                  style={{ width: '80px', height: '80px' }}
+                  src='img/aarohan-logo.png'
+                  style={{ width: '80px', height: '80px', cursor: 'pointer' }}
                 />
               </Link>
               <p className='copy_right text-center'>
                 Aarohan, 2022 | Made with{' '}
                 <i className='fa fa-heart-o' aria-hidden='true' /> by{' '}
-                <a href='https://nitdgplug.org/' target='_blank'>
-                  GNU/Linux Users' Group
+                <a href='' target='_blank'>
+                  Team Aavishkar
                 </a>
               </p>
             </div>
