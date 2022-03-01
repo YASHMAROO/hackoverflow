@@ -287,7 +287,7 @@ export default function IndexPage() {
                 </div>
               </div>
 
-              <div className='col-xl-3 col-md-4'>
+              {/* <div className='col-xl-3 col-md-4'>
                 <div className='single_speaker'>
                   <div className='speaker_thumb'>
                     <img src='/img/saketh.jpeg' alt />
@@ -307,7 +307,7 @@ export default function IndexPage() {
                     </p>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               {/* <div className='single_speaker'>
                   <div className='speaker_thumb'>
