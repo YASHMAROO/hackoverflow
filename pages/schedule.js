@@ -184,13 +184,12 @@ export default function SchedulePage() {
                                             <img src="/idea.png" alt style={{ width: 80, height: 80 }} />
                                             <div className="speaker-name">
                                                 <div className="heading d-flex justify-content-between align-items-center">
-                                                    <span>Idea Submission Phase Starts</span>
+                                                    <span>Application Submission Phase Starts</span>
                                                     <div className="time">
                                                         17:01 PM
                                                     </div>
                                                 </div>
-                                                <p>Period for idea phase starts. Participants can submit the problem as well as the solution they come
-                                                    up for that problem. They must mention the tech stack used as well other necessary requirements. </p>
+                                                <p>Period for applications starts. Participants can submit the application on Devfolio. </p>
                                             </div>
                                         </div>
                                     </div>
@@ -200,7 +199,7 @@ export default function SchedulePage() {
                                 <div className="row">
                                     <div className="col-xl-3 col-lg-3">
                                         <div className="date">
-                                            <h3 style={{ color: 'blue' }}>2 March, 2022</h3>
+                                            <h3 style={{ color: 'blue' }}>3 March, 2022</h3>
                                         </div>
                                     </div>
                                     <div className="col-xl-9 col-lg-9">
@@ -208,14 +207,11 @@ export default function SchedulePage() {
                                             <img src="/lightbulb.png" style={{ width: 80, height: 80 }} />
                                             <div className="speaker-name">
                                                 <div className="heading d-flex justify-content-between align-items-center">
-                                                    <span>Idea Submission Phase Ends</span>
+                                                    <span>Application Submission Phase Ends</span>
                                                     <div className="time">
                                                         09:59 PM
                                                     </div>
                                                 </div>
-                                                <p>Now that you have thought enough about your idea, sit back and relax for a day till the judges review
-                                                    your idea!
-                                                    Once your idea is cleared, all you need is an energy drink and your laptop!</p>
                                             </div>
                                         </div>
                                     </div>
@@ -245,21 +241,9 @@ export default function SchedulePage() {
                                             <img src="/podium.png" style={{ width: 80, height: 80 }} alt />
                                             <div className="speaker-name">
                                                 <div className="heading d-flex justify-content-between align-items-center">
-                                                    <span>Speaker's Address</span>
-                                                    <div className="time">
-                                                        02:00 PM
-                                                    </div>
-                                                </div>
-                                                <p>Devfolio's Speakers Session for the Matic Network, Portis by ShapeShift or Tezos Track Prize.</p>
-                                            </div>
-                                        </div>
-                                        <div className="single_speaker">
-                                            <img src="/podium.png" style={{ width: 80, height: 80 }} alt />
-                                            <div className="speaker-name">
-                                                <div className="heading d-flex justify-content-between align-items-center">
                                                     <span>Judges' Address</span>
                                                     <div className="time">
-                                                        06:00 PM
+                                                        06:00 PM to 8:00 PM
                                                     </div>
                                                 </div>
                                                 <p>Few words of motivation from our knowledgeable and experienced judges!</p>
@@ -289,6 +273,20 @@ export default function SchedulePage() {
                                                     competitors!</p>
                                             </div>
                                         </div>
+
+                                        <div className="single_speaker">
+                                            <img src="/podium.png" style={{ width: 80, height: 80 }} alt />
+                                            <div className="speaker-name">
+                                                <div className="heading d-flex justify-content-between align-items-center">
+                                                    <span>Judges' Address</span>
+                                                    <div className="time">
+                                                        02:00 PM
+                                                    </div>
+                                                </div>
+                                                <p>Few words of motivation from our knowledgeable and experienced judges!</p>
+                                            </div>
+                                        </div>
+
                                         <div className="single_speaker">
                                             <img src="/keyboard.png" style={{ width: 80, height: 80 }} alt />
                                             <div className="speaker-name">

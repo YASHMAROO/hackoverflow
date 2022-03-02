@@ -287,27 +287,26 @@ export default function IndexPage() {
                 </div>
               </div>
 
-              {/* <div className='col-xl-3 col-md-4'>
+              <div className='col-xl-3 col-md-4'>
                 <div className='single_speaker'>
                   <div className='speaker_thumb'>
-                    <img src='/img/saketh.jpeg' alt />
+                    <img src='/img/rajith.jpeg' alt />
                     <div className='hover_overlay'>
                       <div className='social_icon'>
-                        <a href='https://in.linkedin.com/in/sakethrr'>
+                        <a href='https://www.linkedin.com/in/rajiths/'>
                           <i className='fa fa-linkedin-square' />
                         </a>
                       </div>
                     </div>
                   </div>
                   <div className='speaker_name text-center'>
-                    <h3>Saketh Gangavaram</h3>
+                    <h3>Rajith Shaji</h3>
                     <p style={{ color: 'blue' }}>
-                      Founder and Managing Patner of Flyboat Startups and Innovations
-                      <br />Co-Founder of CodeAsylums anf faculty-member at EduPristine.
+                      Co-founder & CEO at Volopay
                     </p>
                   </div>
                 </div>
-              </div> */}
+              </div>
 
               {/* <div className='single_speaker'>
                   <div className='speaker_thumb'>
