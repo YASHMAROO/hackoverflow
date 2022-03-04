@@ -261,20 +261,6 @@ export default function SchedulePage() {
                                     </div>
                                     <div className="col-xl-9 col-lg-9">
                                         <div className="single_speaker">
-                                            <img src="/review.jpg" style={{ width: 80, height: 80 }} alt />
-                                            <div className="speaker-name">
-                                                <div className="heading d-flex justify-content-between align-items-center">
-                                                    <span>Judges' Review</span>
-                                                    <div className="time">
-                                                        12:00 PM
-                                                    </div>
-                                                </div>
-                                                <p>Valuable review by Judges to improve the existing code you have written and be the best among all the
-                                                    competitors!</p>
-                                            </div>
-                                        </div>
-
-                                        <div className="single_speaker">
                                             <img src="/podium.png" style={{ width: 80, height: 80 }} alt />
                                             <div className="speaker-name">
                                                 <div className="heading d-flex justify-content-between align-items-center">
